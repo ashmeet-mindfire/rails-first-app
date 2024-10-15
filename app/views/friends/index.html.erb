@@ -1,0 +1,41 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Friends" %>
+
+<h1>Friends</h1>
+
+<div id="friends">
+
+<table class="table table-striped">
+  <thead>
+    <tr class="table-dark">
+      <th scope="col">No.</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Twitter</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+
+  <% @friends.each_with_index do |friend, idx| %>
+      <tr>
+      <th scope="row"><%= idx + 1%></th>
+      <td><%= friend.first_name%></td>
+      <td><%= friend.last_name%></td>
+      <td><%= friend.email%></td>
+      <td><%= friend.phone%></td>
+      <td><%= friend.twitter%></td>
+      <td><%= link_to "View", friend %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+
+</div>
+
+<%= link_to "New friend", new_friend_path, class:"btn btn-secondary" %>
+
+
