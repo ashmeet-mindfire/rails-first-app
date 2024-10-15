@@ -1,0 +1,18 @@
+current directory: /home/ashmeet/Code/Ruby/Rails/first-app/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.1/ext/stringio
+/home/ashmeet/.asdf/installs/ruby/3.3.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/ashmeet/Code/Ruby/Rails/first-app/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241015-88437-xhs36s sitelibdir\=./.gem.20241015-88437-xhs36s clean
+
+current directory: /home/ashmeet/Code/Ruby/Rails/first-app/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241015-88437-xhs36s sitelibdir\=./.gem.20241015-88437-xhs36s
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: /home/ashmeet/Code/Ruby/Rails/first-app/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241015-88437-xhs36s sitelibdir\=./.gem.20241015-88437-xhs36s install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20241015-88437-xhs36s
+
+current directory: /home/ashmeet/Code/Ruby/Rails/first-app/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241015-88437-xhs36s sitelibdir\=./.gem.20241015-88437-xhs36s clean

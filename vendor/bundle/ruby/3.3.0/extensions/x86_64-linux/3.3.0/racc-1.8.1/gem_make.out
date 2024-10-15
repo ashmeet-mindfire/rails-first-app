@@ -1,0 +1,18 @@
+current directory: /home/ashmeet/Code/Ruby/Rails/first-app/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/home/ashmeet/.asdf/installs/ruby/3.3.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/ashmeet/Code/Ruby/Rails/first-app/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241015-88437-mvsazg sitelibdir\=./.gem.20241015-88437-mvsazg clean
+
+current directory: /home/ashmeet/Code/Ruby/Rails/first-app/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241015-88437-mvsazg sitelibdir\=./.gem.20241015-88437-mvsazg
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/ashmeet/Code/Ruby/Rails/first-app/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241015-88437-mvsazg sitelibdir\=./.gem.20241015-88437-mvsazg install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20241015-88437-mvsazg/racc
+
+current directory: /home/ashmeet/Code/Ruby/Rails/first-app/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241015-88437-mvsazg sitelibdir\=./.gem.20241015-88437-mvsazg clean
